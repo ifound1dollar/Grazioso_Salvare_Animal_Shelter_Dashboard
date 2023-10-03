@@ -1,5 +1,5 @@
 # Grazioso_Salvare_Animal_Shelter_Dashboard
-Project two from SNHU CS-340: Client/Server development. This is a full-stack application using MongoDB and Python to visualize animal shelter data.
+Project two from SNHU CS-340: Client/Server Development. This is a full-stack application using MongoDB and Python to visualize animal shelter data.
 
 ## How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 Writing programs that are maintainable, readable, and adaptable is a critical part of software development. Developers should minimize repeated or tedious work, and modular software is an effective method to do this. The python_crud module developed and used as the driver between the Dash frontend and MongoDB backend was designed to be completely modular, parameterizing each of the variables required to connect to a given MongoDB server; using the module required only implementing it in another Python project.
